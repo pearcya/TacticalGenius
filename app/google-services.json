@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "180733163614",
+    "firebase_url": "https://tactical-genius.firebaseio.com",
+    "project_id": "tactical-genius",
+    "storage_bucket": "tactical-genius.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:180733163614:android:272ad1a07ceb89ff",
+        "android_client_info": {
+          "package_name": "com.tactical.andy.tacticalgenius"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "180733163614-nnqtuqh1pm0i73r1359tv6us1m0lr5f4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAk-xG3WruIenLB0ftZj6-c-ysIaZYbs0Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "180733163614-nnqtuqh1pm0i73r1359tv6us1m0lr5f4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

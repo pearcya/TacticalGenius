@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingTop="50dp"
+    android:padding="40dp"
+    android:background="@color/green">
+
+
+    <ImageView
+        android:id="@+id/ball"
+        android:layout_width="wrap_content"
+        android:layout_height="146dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/ball" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ball"
+        android:id="@+id/email">
+
+
+        <EditText
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Email"
+            android:layout_marginTop="20dp"
+            android:inputType="text"
+            android:paddingTop="0dp"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:textSize="20sp" />
+
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:passwordToggleEnabled="true"
+        android:id="@+id/password"
+        android:layout_below="@id/email"
+        android:layout_marginTop="10dp">
+
+        <EditText
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:ems="10"
+            android:inputType="text"
+            android:textSize="20sp"
+            android:textColorHint="@color/colorPrimaryDark"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log In"
+        android:textSize="25dp"
+        android:textColor="#fff"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/button_rounded"
+        android:id="@+id/loginBtn"
+        android:layout_below="@+id/password"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="25dp"
+        android:textColor="#fff"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_rounded"
+        android:id="@+id/signupBtn"
+        android:layout_below="@id/loginBtn"/>
+
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:layout_below="@id/signupBtn"/>
+
+
+
+
+
+</RelativeLayout>

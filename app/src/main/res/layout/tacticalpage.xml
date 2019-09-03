@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient">
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="50dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Goalkeepers:"
+            android:textSize="20dp"
+            android:layout_marginLeft="100dp"/>
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter"
+            android:textSize="12dp"
+            android:id="@+id/goalkeeper1"
+            android:layout_marginLeft="80dp"
+            android:background="@color/background" />
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter"
+            android:textSize="12dp"
+            android:id="@+id/goalkeeper2"
+            android:background="@color/colorAccent"
+            android:layout_marginLeft="80dp"/>
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter"
+            android:textSize="12dp"
+            android:id="@+id/goalkeeper3"
+            android:background="@color/background"
+            android:layout_marginLeft="80dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Defenders:"
+            android:textSize="20dp"
+            android:layout_marginLeft="100dp"/>
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter"
+            android:textSize="12dp"
+            android:id="@+id/defender1"
+            android:background="@color/colorAccent"
+            android:layout_marginLeft="80dp"/>
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter"
+            android:textSize="12dp"
+            android:id="@+id/defender2"
+            android:background="@color/background"
+            android:layout_marginLeft="80dp"/>
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter"
+            android:textSize="12dp"
+            android:id="@+id/defender3"
+            android:background="@color/colorAccent"
+            android:layout_marginLeft="80dp" />
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter"
+            android:textSize="12dp"
+            android:id="@+id/defender4"
+            android:background="@color/background"
+            android:layout_marginLeft="80dp"/>
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter"
+            android:textSize="12dp"
+            android:id="@+id/defender5"
+            android:background="@color/colorAccent"
+            android:layout_marginLeft="80dp"/>
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter"
+            android:textSize="12dp"
+            android:id="@+id/defender6"
+            android:background="@color/background"
+            android:layout_marginLeft="80dp"/>
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter"
+            android:textSize="12dp"
+            android:id="@+id/defender7"
+            android:background="@color/colorAccent"
+            android:layout_marginLeft="80dp"/>
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter"
+            android:textSize="12dp"
+            android:id="@+id/defender8"
+            android:background="@color/background"
+            android:layout_marginLeft="80dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Midfielder:"
+            android:textSize="20dp"
+            android:layout_marginLeft="105dp"/>
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter"
+            android:textSize="12dp"
+            android:id="@+id/midfielder1"
+            android:background="@color/colorAccent"
+            android:layout_marginLeft="80dp"/>
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter"
+            android:textSize="12dp"
+            android:id="@+id/midfielder2"
+            android:background="@color/background"
+            android:layout_marginLeft="80dp"/>
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter"
+            android:textSize="12dp"
+            android:id="@+id/midfielder3"
+            android:background="@color/colorAccent"
+            android:layout_marginLeft="80dp"/>
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter"
+            android:textSize="12dp"
+            android:id="@+id/midfielder4"
+            android:background="@color/background"
+            android:layout_marginLeft="80dp"/>
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter"
+            android:textSize="12dp"
+            android:id="@+id/midfielder5"
+            android:background="@color/colorAccent"
+            android:layout_marginLeft="80dp"/>
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter"
+            android:textSize="12dp"
+            android:id="@+id/midfielder6"
+            android:background="@color/background"
+            android:layout_marginLeft="80dp"/>
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter"
+            android:textSize="12dp"
+            android:id="@+id/midfielder7"
+            android:background="@color/colorAccent"
+            android:layout_marginLeft="80dp"/>
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter"
+            android:textSize="12dp"
+            android:id="@+id/midfielder8"
+            android:background="@color/background"
+            android:layout_marginLeft="80dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forwards:"
+            android:textSize="20dp"
+            android:layout_marginLeft="105dp"/>
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter"
+            android:textSize="12dp"
+            android:id="@+id/forward1"
+            android:background="@color/colorAccent"
+            android:layout_marginLeft="80dp"/>
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter"
+            android:textSize="12dp"
+            android:id="@+id/forward2"
+            android:background="@color/background"
+            android:layout_marginLeft="80dp"/>
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter"
+            android:textSize="12dp"
+            android:id="@+id/forward3"
+            android:background="@color/colorAccent"
+            android:layout_marginLeft="80dp"/>
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter"
+            android:textSize="12dp"
+            android:id="@+id/forward4"
+            android:background="@color/background"
+            android:layout_marginLeft="80dp"/>
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter"
+            android:textSize="12dp"
+            android:id="@+id/forward5"
+            android:background="@color/colorAccent"
+            android:layout_marginLeft="80dp"/>
+
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="save data"
+            android:layout_marginRight="100dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/buttonsave"
+            android:textSize="25dp"
+            android:textColor="#fff"
+            android:background="@drawable/button_rounded"
+            android:layout_marginLeft="50dp"
+            />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="LOG OUT"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/log_out"
+            android:textSize="25dp"
+            android:textColor="#fff"
+            android:background="@drawable/button_rounded"
+
+             />
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</ScrollView>
+
+
+
